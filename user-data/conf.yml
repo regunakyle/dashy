@@ -1,58 +1,104 @@
 ---
 # Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
+  title: Eric's Homelab
+  description: Powered by Dashy
   navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
+    - title: GitHub
+      path: https://github.com/regunakyle/dashy
+    - title: My Personal Page
+      path: https://ericleung.dev/
 
 # Optional app settings and configuration
 appConfig:
-  theme: colorful
+  theme: nord-frost
+  iconSize: large
 
 # Main content - An array of sections, each containing an array of items
 sections:
-  - name: Getting Started
-    icon: fas fa-rocket
+  - name: Management (1605)
+    icon: fas fa-photo-video
     items:
-      - title: GitHub
-        description: Source Code, Issues and Pull Requests
-        url: https://github.com/lissy93/dashy
-        icon: si-github
-      - title: Docs
-        description: Configuring & Usage Documentation
-        provider: Dashy.to
-        icon: far fa-book
-        url: https://dashy.to/docs
-
-  - name: Support Dashy
-    icon: fas fa-heart
-    displayData:
-      itemSize: large
-    widgets:
-      - type: image
-        label: Dashy is made possible thanks to our awesome sponsors
-        options:
-          imagePath: https://readme-contribs.as93.net/sponsors/lissy93?perRow=5&shape=squircle
+      - title: GL-iNet MT6000
+        icon: hl-openwrt
+        description: All-in-one router
+        url: https://192.168.0.1
+      - title: BliKVM
+        icon: hl-pikvm
+        description: Connected to Cloudstar N100
+        url: https://192.168.0.10
+      - title: Cloudstar N100
+        icon: hl-proxmox
+        description: Application server
+        url: https://192.168.0.50:8006
+      - title: Brother DCP-1610W
+        icon: hl-brother
+        description: Printer management
+        url: http://192.168.0.49
+      - title: Synology DS220
+        icon: hl-synology-dsm
+        description: NAS
+        url: https://192.168.0.20:5001
+  - name: Services (1605)
+    icon: fas fa-photo-video
     items:
-      - title: Sponsor
-        url: https://github.com/sponsors/lissy93
-        description: Sponsor @Lissy93 on GitHub to support with ongoing development of Dashy
-        icon: 🩷
-        color: '#ff78d1'
-        backgroundColor: '#c30c844a'
-
-  - name: Latest Updates
-    icon: fas fa-code-branch
-    displayData:
-      cols: 1
-      rows: 3
-      cutToHeight: true
-    widgets:
-      - type: rss-feed
-        options:
-          rssUrl: https://github.com/lissy93/dashy/releases.atom
-          limit: 5
+      - title: Uptime Kuma
+        icon: hl-uptime-kuma
+        url: http://192.168.0.5:3001
+      - title: CUPS
+        icon: hl-cups
+        description: Printer web UI
+        url: http://192.168.0.51:631
+      - title: Scanservjs
+        icon: hl-scanservjs
+        description: Scanner web UI
+        url: http://192.168.0.51:8080
+      - title: FreshRSS
+        icon: hl-freshrss
+        url: http://192.168.0.55
+      - title: Jellyfin
+        icon: hl-jellyfin
+        url: http://192.168.0.53:8096
+      - title: The Lounge
+        icon: hl-thelounge
+        url: http://192.168.0.56:9000
+      - title: Calibre Web
+        icon: hl-calibre-web
+        url: http://192.168.0.20:8083
+  - name: Management (2406)
+    icon: fas fa-photo-video
+    items:
+      - title: Cnction J4125
+        icon: hl-openwrt
+        description: Main router
+        url: https://192.168.1.1
+      - title: Zyxel GS1900-24EP
+        icon: hl-zyxel-networks
+        description: POE smart switch
+        url: https://192.168.1.2
+      - title: Netgear WAX220
+        icon: hl-openwrt
+        description: Access point
+        url: https://192.168.1.3
+      - title: BliKVM
+        icon: hl-pikvm
+        description: Connected to multiple devices
+        url: https://192.168.1.10
+      - title: Jonsbo N2
+        icon: hl-truenas
+        description: NAS
+        url: https://192.168.1.20
+      - title: Formd T1
+        icon: hl-redhat-linux
+        description: Application server
+        url: https://192.168.1.50:9090
+  - name: Services (1605)
+    icon: fas fa-photo-video
+    items:
+      - title: Uptime Kuma
+        icon: hl-uptime-kuma
+        url: http://192.168.1.5:3001
+      - title: SillyTavern
+        icon: hl-ollama
+        description: LLM web UI
+        url: http://192.168.1.51:8000
