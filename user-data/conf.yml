@@ -39,6 +39,25 @@ sections:
         icon: hl-synology-dsm
         description: NAS
         url: https://192.168.0.20:5001
+  - name: Management (2406)
+    icon: fas fa-photo-video
+    items:
+      - title: GL-iNet MT6000
+        icon: hl-openwrt
+        description: All-in-one router
+        url: https://192.168.1.1
+      - title: BliKVM
+        icon: hl-pikvm
+        description: Connected to multiple devices
+        url: https://192.168.1.10
+      - title: Jonsbo N2
+        icon: hl-truenas
+        description: NAS
+        url: https://192.168.1.20
+      - title: Formd T1
+        icon: hl-redhat-linux
+        description: Application server
+        url: https://192.168.1.50:9090
   - name: Services (1605)
     icon: fas fa-photo-video
     items:
@@ -66,25 +85,6 @@ sections:
         icon: hl-ollama
         description: LLM web UI
         url: http://192.168.0.56:8000
-  - name: Management (2406)
-    icon: fas fa-photo-video
-    items:
-      - title: GL-iNet MT6000
-        icon: hl-openwrt
-        description: All-in-one router
-        url: https://192.168.1.1
-      - title: BliKVM
-        icon: hl-pikvm
-        description: Connected to multiple devices
-        url: https://192.168.1.10
-      - title: Jonsbo N2
-        icon: hl-truenas
-        description: NAS
-        url: https://192.168.1.20
-      - title: Formd T1
-        icon: hl-redhat-linux
-        description: Application server
-        url: https://192.168.1.50:9090
   - name: Services (2406)
     icon: fas fa-photo-video
     items:
