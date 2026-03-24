@@ -81,13 +81,13 @@ sections:
       - title: Calibre Web
         icon: hl-calibre-web
         url: http://192.168.0.20:8083
-      - title: SillyTavern
-        icon: hl-ollama
-        description: LLM web UI
-        url: http://192.168.0.56:8000
   - name: Services (2406)
     icon: fas fa-photo-video
     items:
       - title: Uptime Kuma
         icon: hl-uptime-kuma
         url: http://192.168.1.5:3001
+      - title: llama.cpp server
+        icon: sh-llama-cpp
+        description: LLM web UI
+        url: http://192.168.1.51:8080
