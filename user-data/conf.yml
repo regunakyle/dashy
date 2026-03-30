@@ -91,3 +91,7 @@ sections:
         icon: sh-llama-cpp
         description: LLM web UI
         url: http://192.168.1.51:8080
+      - title: code-server
+        icon: hl-coder
+        description: VSCode in browser
+        url: https://192.168.1.51:8000
