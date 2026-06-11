@@ -63,7 +63,7 @@ sections:
     items:
       - title: Uptime Kuma
         icon: hl-uptime-kuma
-        url: http://192.168.0.5:3001
+        url: https://llama.1605.eleung.me
       - title: CUPS
         icon: hl-cups
         description: Printer web UI
@@ -81,17 +81,21 @@ sections:
       - title: Calibre Web
         icon: hl-calibre-web
         url: http://192.168.0.20:8083
+      - title: llama.cpp server
+        icon: sh-llama-cpp
+        description: LLM web UI
+        url: https://llama.1605.eleung.me
   - name: Services (2406)
     icon: fas fa-photo-video
     items:
       - title: Uptime Kuma
         icon: hl-uptime-kuma
-        url: http://192.168.1.5:3001
+        url: https://uptime.2406.eleung.me
       - title: llama.cpp server
         icon: sh-llama-cpp
         description: LLM web UI
-        url: http://192.168.1.51:8080
+        url: https://llama.2406.eleung.me
       - title: code-server
         icon: hl-coder
         description: VSCode in browser
-        url: https://192.168.1.51:8000
+        url: https://coder.2406.eleung.me
